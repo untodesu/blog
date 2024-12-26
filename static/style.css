@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-A: #F0F0F0;
-    --background-B: #F4F4F4;
-    --background-C: #F7F7F7;
+    --background-A: #E8E8E8;
+    --background-B: #F7F7F7;
+    --background-C: #EFEFEF;
     --background-dim: #CCCCCC;
     --foreground: #000000;
     --foreground-dim: #202020;
@@ -23,8 +23,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-A: #040404;
-    --background-B: #0A0A0A;
+    --background-A: #080808;
+    --background-B: #171717;
     --background-C: #0F0F0F;
     --background-dim: #202020;
     --foreground: #BBBBBB;
@@ -35,7 +35,7 @@
 }
 
 html {
-  font-size: 24px;
+  font-size: 20px;
   font-family: "Roboto";
   text-align: justify;
 }
