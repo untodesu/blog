@@ -2,7 +2,7 @@
 @import "code-dark.css" (prefers-color-scheme: dark);
 
 :root {
-  --iso-wide: 15rem;
+  --iso-wide: 10rem;
   --iso-tall: calc(var(--iso-wide) * 1.75);
   --iso-xpos: calc(var(--iso-wide) / 2.00);
   --iso-ypos: calc(var(--iso-tall) / 2.00);
@@ -10,9 +10,9 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background-A: #A0A0A0;
-    --background-B: #A4A4A4;
-    --background-C: #A7A7A7;
+    --background-A: #F0F0F0;
+    --background-B: #F4F4F4;
+    --background-C: #F7F7F7;
     --background-dim: #CCCCCC;
     --foreground: #000000;
     --foreground-dim: #202020;
@@ -24,7 +24,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-A: #040404;
-    --background-B: #080808;
+    --background-B: #0A0A0A;
     --background-C: #0F0F0F;
     --background-dim: #202020;
     --foreground: #BBBBBB;
