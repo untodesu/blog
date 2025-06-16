@@ -2,7 +2,7 @@ name: Blag SSG
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 jobs:
   generate:
