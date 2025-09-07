@@ -207,3 +207,30 @@ header h2 {
   article > header > div > h2 { font-size: x-large; }
   article > header > div > p { font-size: x-large; }
 }
+
+.f-counter {
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.f-badges {
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.f-badge {
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+}

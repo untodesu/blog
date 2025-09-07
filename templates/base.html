@@ -11,8 +11,8 @@
     {%- else %}
     <meta name="description" content="{{ site.description }}"/>
     {%- endif %}
-    <link rel="alternate" href="/blog/atom.xml" type="application/atom+xml"/>
-    <link rel="stylesheet" href="/blog/style.css" type="text/css"/>
+    <link rel="alternate" href="/atom.xml" type="application/atom+xml"/>
+    <link rel="stylesheet" href="/style.css" type="text/css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
@@ -28,9 +28,9 @@
         <h2>{{ site.description }}</h2>
         <ul>
           <li><h2><a target="_self" href="/">[root]</a></h2></li>
-          <li><h2><a target="_self" href="/blog/">[blog]</a></h2></li>
-          <li><h2><a target="_self" href="/blog/archive.html">[archive]</a></h2></li>
-          <li><h2><a target="_self" href="/blog/tags/">[tags]</a></h2></li>
+          <li><h2><a target="_self" href="/about.html">[about]</a></h2></li>
+          <li><h2><a target="_self" href="/archive.html">[archive]</a></h2></li>
+          <li><h2><a target="_self" href="/tags/">[tags]</a></h2></li>
         </ul>
       </nav>
     </header>
@@ -39,12 +39,20 @@
     {% endblock %}
     </main>
     <footer>
-      <p>
-        <a href="/blog/atom.xml">atom.xml</a>&nbsp;
-        <a rel="me" href="https://bsky.app/profile/untode.su">bluesky</a>&nbsp;
-        <a rel="me" href="https://github.com/untodesu">github</a>
+      <p class="f-badges">
+        <img class="f-badge" src="/badges/zov.png" height="31"/>
+        <img class="f-badge" src="/badges/nekojiru2.gif" height="31"/>
+        <img class="f-badge" src="/badges/nft.gif" height="31"/>
+        <a rel="me" href="https://github.com/untodesu"><img class="f-badge" src="/badges/github.png"/></a>
+        <a rel="me" href="https://bsky.app/profile/untode.su"><img class="f-badge" src="/badges/bluesky.gif" height="31"/></a>
+        <a href="https://discord.gg/AFe6Acxr78"><img class="f-badge" src="/badges/thelinuxspace.png"/></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img class="f-badge" src="/badges/no.gif" height="31"/></a>
+        <a href="https://steamcommunity.com/profiles/76561198273305494"><img class="f-badge" src="/badges/halflife.gif" height="31"/></a>
+        <a href="https://github.com/venthur/blag"><img class="f-badge" src="/badges/blag.png" height="31"/></a>
       </p>
-      <p>built with <a href="https://github.com/venthur/blag">venthur/blag</a></p>
+      <p>
+        <a href="http://counter.co.kz"><img class="f-counter" src="http://counter.co.kz/CounterCoKz?page=untode.su&style=pdw&digits=8" height="24"></a>
+      </p>
     </footer>
   </body>
 </html>
