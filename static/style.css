@@ -156,6 +156,7 @@ blockquote {
   font-style: italic;
   border-left: 2px solid var(--primary-color);
   margin: 0;
+  margin-top: 1rem;
   padding: 1rem;
 }
 
@@ -197,6 +198,14 @@ header h2 {
   font-size: xx-large;
 }
 
+img.emoji {
+  margin: 0;
+  min-width: 0;
+  min-height: 0;
+  width: 0.75rem;
+  height: auto;
+}
+
 @media only screen and (max-width: 768px) {
   nav > h2 { display: none; }
   nav > ul { margin: 0; padding: 0; }
@@ -221,8 +230,8 @@ header h2 {
 .f-badges {
     gap: 1rem;
     margin-top: 1rem;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .f-badge {
